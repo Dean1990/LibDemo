@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.deanlib.libdemo.bothwaylistview.BothwayListViewActivity;
+import com.deanlib.libdemo.waveview.WaveViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btnBothway).setOnClickListener(this);
+        findViewById(R.id.btnWave).setOnClickListener(this);
     }
 
     @Override
@@ -29,7 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent1);
 
                 break;
+            case R.id.btnWave:
 
+                Intent intent2 = new Intent(this, WaveViewActivity.class);
+
+                startActivity(intent2);
+
+                break;
         }
 
 

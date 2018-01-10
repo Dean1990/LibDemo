@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".bothwaylistview.BothwayListViewActivity"/>
+        <activity android:name=".waveview.WaveViewActivity"/>
     </application>
 
 </manifest>
