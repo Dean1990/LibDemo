@@ -29,4 +29,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.github.Dean1990:BothwayListview:-SNAPSHOT'
     compile 'com.github.Dean1990:WaveView:-SNAPSHOT'
+    compile 'com.github.Dean1990:ReflectTextView:-SNAPSHOT'
 }

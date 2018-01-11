@@ -17,5 +17,10 @@
         android:text="Wave View"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnReflect"
+        android:text="Reflect Textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

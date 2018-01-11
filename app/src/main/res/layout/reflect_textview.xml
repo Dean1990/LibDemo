@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:reflect="http://schemas.android.com/apk/res-auto">
+
+    <com.deanlib.reflecttextview.ReflectTextView
+        android:layout_width="wrap_content"
+        android:lineSpacingMultiplier="1.3"
+        android:layout_height="wrap_content"
+        reflect:spacingValue="5dp"
+        reflect:reflectAlpha="120"
+        reflect:reflectHeightMultiple="0.8"
+        android:text="Reflect TextView 带倒影文本"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+       />
+
+</LinearLayout>
